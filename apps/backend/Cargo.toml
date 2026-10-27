@@ -1,0 +1,17 @@
+[package]
+name = "taskam-backend"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+taskam-core = { path = "../../crates/core" }
+axum = { workspace = true }
+tower = { workspace = true }
+tower-http = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }

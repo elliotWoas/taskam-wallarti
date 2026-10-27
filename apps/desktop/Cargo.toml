@@ -1,0 +1,7 @@
+[package]
+name = "taskam-desktop"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+taskam-core = { path = "../../crates/core" }

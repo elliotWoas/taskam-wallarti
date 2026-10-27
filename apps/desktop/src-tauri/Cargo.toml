@@ -1,0 +1,15 @@
+[package]
+name = "taskam-desktop-tauri"
+version.workspace = true
+edition.workspace = true
+
+[build-dependencies]
+tauri-build = { version = "2.0", features = [] }
+
+[dependencies]
+tauri = { workspace = true }
+tauri-plugin-shell = "2.0"
+taskam-core = { path = "../../../crates/core" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
